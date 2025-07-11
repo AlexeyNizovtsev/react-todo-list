@@ -8,5 +8,24 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: rgb(173, 172, 172);
+  color: #f8faff;
+  background: #292a2d;
+}
+
+main {
+  margin: 0px auto;
+  max-width: 800px;
+  padding: 1rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin: 1rem 0;
 }
