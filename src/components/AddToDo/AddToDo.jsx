@@ -12,7 +12,7 @@ export default function AddToDo({ setTodos }) {
         ...prev,
         {
           id: Date.now(),
-          text: value.charAt(0).toUpperCase() + value.slice(1),
+          text: value.trim().charAt(0).toUpperCase() + value.trim().slice(1),
           completed: false,
         },
       ]);
