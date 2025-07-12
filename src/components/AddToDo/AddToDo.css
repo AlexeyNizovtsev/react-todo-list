@@ -1,20 +1,20 @@
-button {
+.addButton {
   padding: 0.8rem 2rem;
+  margin-bottom: 1rem;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s;
   font-weight: bold;
-  margin-right: 1rem;
   background: #3e5ae1;
   color: white;
 }
 
-button:hover {
+.addButton:hover {
   opacity: 0.8;
 }
 
-button:disabled {
+.addButton:disabled {
   cursor: not-allowed;
   background: #6b7ac2;
   color: white;
