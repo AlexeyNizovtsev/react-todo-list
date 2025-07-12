@@ -1,12 +1,48 @@
-# React + Vite
+# To-Do List на React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Скриншот приложения](./screenshot.png)
 
-Currently, two official plugins are available:
+Простое и удобное приложение для управления задачами с автоматическим сохранением в браузере. Позволяет сосредоточиться на важном!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Особенности
 
-## Expanding the ESLint configuration
+- 📝 Добавление новых задач
+- ✅ Отметка выполненных заданий
+- ❌ Удаление ненужных задач
+- 💾 Автосохранение в localStorage
+- 🔄 Сортировка: активные задачи сверху
+- 🎨 Приятный современный интерфейс
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Технологии
+
+<p align="left">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white" alt="React">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+</p>
+
+## Быстрый старт
+
+### Установка и запуск
+
+1. Клонируйте репозиторий:
+   git clone https://github.com/ваш-username/react-todo-list.git
+2. Перейдите в папку проекта:
+   cd react-todo-list
+
+3. Установите зависимости:
+   npm install
+
+4. Запустите приложение:
+   npm run dev
+
+5. Откройте в браузере:
+   http://localhost:5173
+
+## Как пользоваться
+
+1. Введите задачу в поле ввода
+2. Нажмите "Добавить" или клавишу Enter
+3. Отмечайте выполненные задачи кликом по чекбоксу
+4. Удаляйте задачи кнопкой ❌
+5. Все изменения сохраняются автоматически
