@@ -26,7 +26,7 @@
 ### Установка и запуск
 
 1. Клонируйте репозиторий:
-   git clone https://github.com/ваш-username/react-todo-list.git
+   git clone [https://github.com/ваш-username/react-todo-list.git](https://github.com/AlexeyNizovtsev/react-todo-list.git)
 2. Перейдите в папку проекта:
    cd react-todo-list
 
